@@ -14,12 +14,24 @@
 				margin: 200px 0px 10px 0px;
 		}
 
-		.nav-set {
-			background-color: black;
+		.in-set {
+			background-color: #0d0b03;
 			border: none;
 			height: 50px;
 			position: -webkit-sticky; top:0;
 			position: sticky;top: 0;
+
+		}
+
+		.nav-items {
+			background-color: #191606;
+			margin-top: 0;
+		}
+
+		.nav-moblogo {
+			float: left; 
+			display: inline-block; 
+			padding: 10px;
 		}
 		.width100-img {
 			width: 100%;
@@ -29,36 +41,6 @@
 			margin-left: auto; margin-right: auto;
 		}
 
-		@media only screen and (orientation: portrait){
-			.in-bot {
-				margin: 200px 0px 180px 0px;
-			}
-			.nav-set {
-			position: -webkit-sticky; top:0;
-			position: sticky;top: 0;
-			}
-		}
-
-/*main css styling*/
-	
-		.main-body {
-			background-color: #fff9d1;
-			color: #191606;
-		}
-		.centering{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			-webkit-transform: translate(-50%,-50%);
-			transform: translate(-50%,-50%);
-		}
-
-		.inline-center {
-			position: absolute;
-			left: 50%;
-			-webkit-transform: translate(-50%);
-			transform: translate(-50%);
-		}
 
 		.cust-btn:link, .cust-btn:visited {
 			padding: 10px;
@@ -83,20 +65,62 @@
 
 		}
 
-		.cust-padd {
-			padding: 10px 10px;
-		}
-
-		.typ-duration{
-			animation-duration: 3s;
-		}
-		.font-style {
-			font-family: : "Arial", Sans-serif;
-			font-size: 20px;
-			font-weight: normal;
+		@media only screen and (orientation: portrait){
+			.in-bot {
+				margin: 200px 0px 180px 0px;
+			}
+			.nav-set {
+			position: -webkit-sticky; top:0;
+			position: sticky;top: 0;
+			}
 		}
 
 
+/*==================================================================================*/
+/*dashboard styling*/
+
+		.nav-set {
+			background-color: #191606;
+			border: none;
+			height: 50px;
+			position: -webkit-sticky; top:0;
+			position: sticky;top: 0;
+
+		}
+
+		@media only screen and (max-width: 767px) {
+			.dashside {
+				display: none;	
+			}
+			.dashheading {
+				border-bottom: solid 2px rgba(25,22,6, 70%);
+				color: #191606; 
+				font-size: 20px;
+				font-weight: bolder;
+				display: block;
+				padding-top: 0;
+			}
+			.content-margin {
+				margin-left: 5%
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+			.dashnav {
+				display: none;
+			}
+			.dashheading {
+				border-bottom: solid 2px rgba(25,22,6, 70%);
+				color: #191606; 
+				font-size: 20px;
+				font-weight: bolder;
+				display: block;
+				padding-top: 10px;
+			}
+			.content-margin {
+				margin-left: 20%
+			}			
+		}
 
 		.sidebar {
 			background-color: #191606;
@@ -112,6 +136,45 @@
 			overflow: auto;
 			float: left;
 			} 
+
+		.logo-dash {
+			padding: 25px 0px 25px 0px; 
+		}
+/*main css styling*/
+		.main-body {
+			background-color: #fff9d1;
+			color: #191606;
+		}
+		.centering{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+		}
+
+		.inline-center {
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translate(-50%);
+			transform: translate(-50%);
+		}
+
+
+
+		.cust-padd {
+			padding: 10px 10px;
+		}
+
+		.typ-duration{
+			animation-duration: 3s;
+		}
+		.font-style {
+			font-family: : "Arial", Sans-serif;
+			font-size: 20px;
+			font-weight: normal;
+		}
+
 
 		li a{
 				text-decoration: none;
@@ -145,10 +208,10 @@
 		.dashhead {
 			position: fixed;
 			display: inline-block;
-			padding: 20px;
 			font-size: 30px;
 			font-weight: bolder;
 			color: #B4710A;
+
 
 		}
 
@@ -182,12 +245,10 @@
 			margin-bottom: 100px;
 		}
 
-		@media only screen and (min-device-width: 768px) {
-			.trying {
-				
-			}
-		}
+
 		
+
+
 
 	
 
