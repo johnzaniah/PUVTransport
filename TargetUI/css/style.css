@@ -1,0 +1,195 @@
+/*index page styling*/
+		.in-text{
+			color:white;
+			font-weight: bold;
+			font-size: 8vw;
+			text-align: center;
+		}
+		.in-body {
+			background-color: #191606;
+			color: white;
+		}
+
+		.in-bot {
+				margin: 200px 0px 10px 0px;
+		}
+
+		.nav-set {
+			background-color: black;
+			border: none;
+			height: 50px;
+			position: -webkit-sticky; top:0;
+			position: sticky;top: 0;
+		}
+		.width100-img {
+			width: 100%;
+		}
+
+		.logoposition {
+			margin-left: auto; margin-right: auto;
+		}
+
+		@media only screen and (orientation: portrait){
+			.in-bot {
+				margin: 200px 0px 180px 0px;
+			}
+			.nav-set {
+			position: -webkit-sticky; top:0;
+			position: sticky;top: 0;
+			}
+		}
+
+/*main css styling*/
+	
+		.main-body {
+			background-color: #fff9d1;
+			color: #191606;
+		}
+		.centering{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+		}
+
+		.inline-center {
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translate(-50%);
+			transform: translate(-50%);
+		}
+
+		.cust-btn:link, .cust-btn:visited {
+			padding: 10px;
+			background-color:#B4710A; 		
+			height: 50px;
+			width: 30vw;
+			min-width: 250px;
+			max-width: 300px;
+			margin: 20px 0px;
+			border-radius: 0;
+			color: white; 
+			border:none;
+			box-shadow: 15px 15px 50px black;
+			transition-duration: 0.2s;
+			-webkit-transition-duration:0.2s;
+		}
+
+		.cust-btn:hover, .cust-btn:active {
+			background-color: white;
+			color: #B4710A;
+			border-color: #B4710A;
+
+		}
+
+		.cust-padd {
+			padding: 10px 10px;
+		}
+
+		.typ-duration{
+			animation-duration: 3s;
+		}
+		.font-style {
+			font-family: : "Arial", Sans-serif;
+			font-size: 20px;
+			font-weight: normal;
+		}
+
+
+
+		.sidebar {
+			background-color: #191606;
+			padding: 0;
+			padding-top: 50px;
+			font-size: 15px;
+			list-style-type: none;
+			min-width: 120px;
+			width: 16%;	
+			height: 100%;
+			position: fixed;
+			display: inline-block;
+			overflow: auto;
+			float: left;
+			} 
+
+		li a{
+				text-decoration: none;
+				color:white; 
+				display: block;
+				padding: 20px;
+				margin: 0;
+			}
+
+		a:hover.dash, a:active.dash, .selected {
+			text-decoration: none;
+			background-color: black;
+			border-left: solid 10px #B4710A; 
+			color: white;
+			display: block;
+			transition: ease-in 0.1s;
+		}
+
+		a:link.dash, a:visited.dash {
+			text-decoration: none; 
+			color: white;
+			display: block;
+		}
+
+		a:link.home, a:active.home, a:visited.home, a:hover.home {
+			text-decoration: none; 
+			color: #B4710A;
+			display: block;
+		}
+
+		.dashhead {
+			position: fixed;
+			display: inline-block;
+			padding: 20px;
+			font-size: 30px;
+			font-weight: bolder;
+			color: #B4710A;
+
+		}
+
+		.dashcontent {
+			margin-left: 20%;
+			position: fixed;
+			padding-top: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			padding-bottom: 50%;
+			font-size: 15px;
+			color: #191606;
+			overflow: auto;
+		}
+
+		.transnav {
+			font-size: 30px;
+			font-weight: bolder;
+			color: #B4710A;
+		}
+
+		.timenav {
+
+			padding: 10px; display: flex;
+			font-size: 20px; color:#B4710A
+		}
+
+
+
+		.marginbot {
+			margin-bottom: 100px;
+		}
+
+		@media only screen and (min-device-width: 768px) {
+			.trying {
+				
+			}
+		}
+		
+
+	
+
+	
+
