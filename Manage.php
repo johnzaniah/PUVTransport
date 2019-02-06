@@ -30,9 +30,9 @@
 			    </div>
 			    <div class="collapse navbar-collapse nav-items" id="appnav">
 			      <ul class="nav navbar-nav">
-						<li><a href="dashboard.html" class="dash">Statistics</a></li>
-						<li><a href="Manage.html" class="dash">Manage</a></li>
-						<li><a href="#" class="selected dash">Settings</a></li>
+						<li><a href="dashboard.php" class="dash">Statistics</a></li>
+						<li><a href="#" class="dash selected">Manage</a></li>
+						<li><a href="Settings.html" class="dash">Settings</a></li>
 						<li><a href="index.html" class="dash">Logout</a></li>
 			      </ul>
 			    </div>
@@ -42,9 +42,9 @@
 		<div class="col-md-4">
 			<ul class="sidebar">
 				<li><div class="container-fluid logo-dash"><img src="./images/logo.png" class="img-responsive"></div></li>
-				<li><a href="dashboard.html" class="dash">Statistics</a></li>
-				<li><a href="Manage.html" class="dash">Manage</a></li>
-				<li><a href="#" class="dash selected">Settings</a></li>
+				<li><a href="dashboard.php" class="selected dash">Statistics</a></li>
+				<li><a href="#" class="dash">Manage</a></li>
+				<li><a href="Settings.html" class="dash">Settings</a></li>
 				<li><a href="index.html" class="dash">Logout</a></li>			
 			</ul>
 		</div>
@@ -52,9 +52,10 @@
 
 		<div class="container-fluid dashheading">
 			<div class="container content-margin">
-				<p>Settings</p>
+				<p>Manage Profiles</p>
 			</div>
-		</div>		
+		</div>
+		
 </body>
 
 <script type="text/javascript">
