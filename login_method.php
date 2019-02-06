@@ -13,4 +13,5 @@
 				echo "<script>alert('Wrong Password!')</script>";
 			} 
 		}
+			mysqli_close($sql);
 	?>
