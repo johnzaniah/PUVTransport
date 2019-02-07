@@ -75,6 +75,28 @@
 			}
 		}
 
+/*authentication styling*/
+
+		.instyle {
+			margin: 10px;
+		}
+
+		.form-container {
+			background-color: #191606;
+			width: 400px;
+		}
+
+		input {
+			padding:5px; border-radius: 5px; width: 250px;margin-bottom:20px;
+		}
+
+		button.auth {
+			background-color: #B4710A;
+			border:none;
+			width: 250px;
+			text-align: center;
+		}
+
 
 /*==================================================================================*/
 /*dashboard styling*/
