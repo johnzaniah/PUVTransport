@@ -75,27 +75,7 @@
 			}
 		}
 
-/*authentication styling*/
 
-		.instyle {
-			margin: 10px;
-		}
-
-		.form-container {
-			background-color: #191606;
-			width: 400px;
-		}
-
-		input {
-			padding:5px; border-radius: 5px; width: 250px;margin-bottom:20px;
-		}
-
-		button.auth {
-			background-color: #B4710A;
-			border:none;
-			width: 250px;
-			text-align: center;
-		}
 
 
 /*==================================================================================*/
@@ -125,7 +105,34 @@
 			.content-margin {
 				margin-left: 5%
 			}
+
+			.frameprop {
+
+				margin-top: 50px;
+				width: 90%; 
+				height: 110vw;
+				box-shadow: 5px 5px 10px grey;
+			}
+
+			.statusbox {
+				display:block;
+				width:80vw; height: 40vw; 
+				background-color: #edebe9; 
+				margin: 1vw; 
+				box-shadow: 5px 5px 10px grey; 
+				border-radius: 10px;"
+			}
+
+			.mapcontainer {
+				display:block;
+				width:80vw; height: 80vw; 
+				background-color: #edebe9; 
+				margin: 1vw; 
+				box-shadow: 5px 5px 10px grey; 
+				border-radius: 10px;"			
+			}
 		}
+
 
 		@media only screen and (min-width: 768px) {
 			.dashnav {
@@ -139,8 +146,34 @@
 				display: block;
 				padding-top: 10px;
 			}
+
 			.content-margin {
 				margin-left: 20%
+			}
+
+			.frameprop {
+				margin-top: 40px; 
+				width: 75%;
+				height: 40vw;
+				box-shadow: 5px 5px 10px grey;
+			}
+
+			.statusbox {
+				display:inline-block;
+				width:30vw; height: 40vw; 
+				background-color: #edebe9; 
+				margin: 1vw; 
+				box-shadow: 5px 5px 10px grey; 
+				border-radius: 10px;"
+			}
+
+			.mapcontainer {
+				display:inline-block;
+				width:50vw; height: 40vw; 
+				background-color: #edebe9; 
+				margin: 1vw; 
+				box-shadow: 5px 5px 10px grey; 
+				border-radius: 10px;"			
 			}			
 		}
 
@@ -162,6 +195,38 @@
 		.logo-dash {
 			padding: 25px 0px 25px 0px; 
 		}
+
+		.app-container {
+			width: 90%;
+		}
+
+
+/*form styling*/
+
+		.instyle {
+			margin: 10px;
+		}
+
+		.form-container {
+			background-color: #191606;
+			width: 400px;
+		}
+
+		input {
+			color: #191606;
+			padding:5px; 
+			border-radius: 5px; 
+			width: 250px;
+			margin-bottom:20px;
+		}
+
+		button.auth {
+			background-color: #B4710A;
+			border:none;
+			width: 250px;
+			text-align: center;
+		}
+
 /*main css styling*/
 		.main-body {
 			background-color: #fff9d1;

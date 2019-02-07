@@ -16,43 +16,20 @@
 	<link href="./css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/style.css" type="text/css" rel="stylesheet">
-
+</head>
 	<style type="text/css">
-		body {
-			background-color: #191606;
-		}
-
-		.instyle {
-			margin: 10px;
-		}
-
-		.form-container {
-			background-color: #191606;
-			width: 400px;
-		}
-
 		input {
+			color: #191606;
 			padding:5px; 
 			border-radius: 5px; 
 			width: 250px;
 			margin-bottom:20px;
 		}
-
-		button.auth {
-			background-color: #B4710A;
-			border:none;
-			width: 250px;
-			text-align: center;
-		}
-
-	</style> 
-
-</head>
-
-<body class="animated fadeIn">
+	</style>
+<body class="in-body animated fadeIn">
 
 	<div class="centering">
-		<div class="container text-center" style="display: block;"><img src="./images/logo.png" width="350vw"></div>
+		<div class="container text-center"><img src="./images/logo.png" width="350vw"></div>
 
 	<div>
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">

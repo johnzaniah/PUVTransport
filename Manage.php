@@ -36,7 +36,7 @@
 						<li><a href="dashboard.php" class="dash">Statistics</a></li>
 						<li><a href="javascript::void(0)" class="selected dash">Manage</a></li>
 						<li><a href="Settings.php" class="dash">Settings</a></li>
-						<li><a href="logout.php" class="dash">Logout</a></li>
+						<li><a href="logout.php" class="dash" onclick="log();">Logout</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -46,10 +46,10 @@
 		<div class="col-md-4">
 			<ul class="sidebar">
 				<li><div class="container-fluid logo-dash"><img src="./images/logo.png" class="img-responsive"></div></li>
-				<li><a href=dashboard.php" class="dash">Statistics</a></li>
+				<li><a href="dashboard.php" class="dash">Statistics</a></li>
 				<li><a href="javascript::void(0)" class="selected dash">Manage</a></li>
 				<li><a href="Settings.php" class="dash">Settings</a></li>
-				<li><a href='logout.php' class='dash'>Logout</a></li>
+				<li><a href='logout.php' class='dash' onclick="log();">Logout</a></li>
 						
 			</ul>
 		</div>
@@ -60,9 +60,13 @@
 				<p>Profiles</p>
 			</div>
 		</div>
-		
+		<div class="container-fluid content-margin" style="width: 100%;">
+			<div class="text-center frameprop" >
+				<iframe src="profile.php" frameborder="0" width="100%" height="100%"></iframe>
+			</div>	
+		</div>
+
 </body>
 
-<script type="text/javascript">
-</script>
+<script type="text/javascript" src="./js/logout.js"></script>
 </html>

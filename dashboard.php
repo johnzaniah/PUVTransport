@@ -36,7 +36,7 @@
 						<li><a href="javascript::void(0)" class="selected dash">Statistics</a></li>
 						<li><a href="Manage.php" class="dash">Manage</a></li>
 						<li><a href="Settings.php" class="dash">Settings</a></li>
-						<li><a href="logout.php" class="dash">Logout</a></li>
+						<li><a href="logout.php" class="dash" onclick="log();">Logout</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -49,7 +49,7 @@
 				<li><a href="javascript::void(0)" class="selected dash">Statistics</a></li>
 				<li><a href="Manage.php" class="dash">Manage</a></li>
 				<li><a href="Settings.php" class="dash">Settings</a></li>
-				<li><a href='logout.php' class='dash'>Logout</a></li>
+				<li><a href='logout.php' class='dash' onclick="log();">Logout</a></li>
 						
 			</ul>
 		</div>
@@ -63,6 +63,5 @@
 		
 </body>
 
-<script type="text/javascript">
-</script>
+<script type="text/javascript" src="./js/logout.js"></script>
 </html>
