@@ -14,10 +14,8 @@
 	<link href="./css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body class="main-body">
 
@@ -60,11 +58,14 @@
 				<p>Profiles</p>
 			</div>
 		</div>
-		<div class="container-fluid content-margin" style="width: 100%;">
-			<div class="text-center frameprop" >
-				<iframe src="profile.php" frameborder="0" width="100%" height="100%"></iframe>
-			</div>	
-		</div>
+		<div class="container content-margin animated fadeIn">	
+				<div class="text-center frameprop" style="width:90%">
+					<div style="padding: 10px 0 10px; float: left">
+						<a href="register.php" class="btn btn-primary" style="background-color: #B4710A; border-radius: 0px; border: 0">Register</a>
+					</div>
+					<iframe src="profile.php" frameborder="2px" width="100%" height="90%" ></iframe>
+				</div>	
+			</div>
 
 </body>
 

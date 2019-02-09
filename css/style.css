@@ -103,15 +103,14 @@
 				padding-top: 0;
 			}
 			.content-margin {
-				margin-left: 5%
+				margin-left: 2%
 			}
 
 			.frameprop {
 
-				margin-top: 50px;
 				width: 90%; 
 				height: 110vw;
-				box-shadow: 5px 5px 10px grey;
+							
 			}
 
 			.statusbox {
@@ -152,10 +151,9 @@
 			}
 
 			.frameprop {
-				margin-top: 40px; 
 				width: 75%;
 				height: 40vw;
-				box-shadow: 5px 5px 10px grey;
+			
 			}
 
 			.statusbox {
@@ -229,7 +227,7 @@
 
 /*main css styling*/
 		.main-body {
-			background-color: #fff9d1;
+			background-color: white;
 			color: #191606;
 		}
 		.centering{
