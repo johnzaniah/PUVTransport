@@ -101,7 +101,6 @@
 				font-weight: bolder;
 				display: block;
 				padding-top: 0;
-				background-color: white;
 			}
 			.content-margin {
 				margin-left: 2%
@@ -139,13 +138,12 @@
 				display: none;
 			}
 			.dashheading {
-				box-shadow: 5px 3px 5px grey;
+				border-bottom: solid 2px rgba(25,22,6, 70%);
 				color: #191606; 
 				font-size: 20px;
 				font-weight: bolder;
 				display: block;
 				padding-top: 10px;
-				background-color: white;
 			}
 
 			.content-margin {
@@ -229,7 +227,7 @@
 
 /*main css styling*/
 		.main-body {
-			background-color: #c9c9c9;
+			background-color: white;
 			color: #191606;
 		}
 		.centering{
