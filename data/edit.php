@@ -60,6 +60,7 @@
 			 	header('location: mod.php');
 			}  
 		}
+		mysqli_close($datasql);
 ?>
 
 		</table>
