@@ -15,13 +15,8 @@
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 <?php  
 	session_start();
-	require "data.php";
+	require "modify.php";
 	error_reporting(0);
- 	$get = $_SESSION['idsel'];
-
- 	$vecdep = "SELECT * from vehicle_list WHERE vehicle_info = '$get'";
-	$dep = $datasql->query($vecdep);
-	$rows = $dep->num_rows; 
 
 	 	if (!$rows == 0) {
 	 		$depdata = $dep->fetch_assoc();
@@ -60,7 +55,11 @@
 			 	header('location: mod.php');
 			}  
 		}
+<<<<<<< HEAD
 		mysqli_close($datasql);
+=======
+	mysqli_close($datasql);
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 ?>
 
 		</table>

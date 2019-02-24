@@ -116,7 +116,11 @@
 
 			.statusbox {
 				display:block;
+<<<<<<< HEAD
 				width:80vw; height: 40vw; 
+=======
+				width:80vw; height: 50vw; 
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 				background-color: #edebe9; 
 				margin: 1vw; 
 				box-shadow: 5px 5px 10px grey; 
@@ -127,7 +131,11 @@
 				display:block;
 				width:80vw; height: 80vw; 
 				background-color: #edebe9; 
+<<<<<<< HEAD
 				margin: 1vw; 
+=======
+				margin-top: 5vh; 
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 				box-shadow: 5px 5px 10px grey; 
 				border-radius: 10px;"			
 			}
@@ -231,6 +239,10 @@
 		.main-body {
 			background-color: #c9c9c9;
 			color: #191606;
+<<<<<<< HEAD
+=======
+			width: 100%;
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 		}
 		.centering{
 			position: absolute;

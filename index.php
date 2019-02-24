@@ -32,7 +32,7 @@
 		<img src="./images/logo.png" class="logoposition img-responsive">
 	</div>
 	<div class="text-center">
-		<a href="TransAdApp.html" class="btn btn-primary cust-btn shadow-lg p-3 mb-5">
+		<a href="http://localhost:5670" class="btn btn-primary cust-btn shadow-lg p-3 mb-5">
 			<div class="text-center">
 				<span class="col-md-1">
 					<i class="fas fa-angle-right fa-2x"></i>

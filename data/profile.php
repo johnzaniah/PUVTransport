@@ -19,8 +19,14 @@
 
 <?php  
 	session_start();
+<<<<<<< HEAD
 	require "profilelist.php";
 	
+=======
+	error_reporting(0);
+	require "acquireData.php";
+
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 	echo "<table class='table text-center' align='center' style='background-color: #edebe9; border-bottom: 5px solid grey;border-right: 5px solid grey;'><tr style='font-weight: bolder'><td>Vehicle ID</td><td>Vehicle Type</td><td>Plate No.</td><td>Passenger Count</td><td>Passenger Capacity</td></tr>";
 	
 	for ($x = 0; $x< $rows; $x++) {
@@ -40,7 +46,7 @@
 	 	}
 	 }
 	 echo "</table>";
-	
+	mysqli_close($datasql);	
 ?>
 </body>
 </script>

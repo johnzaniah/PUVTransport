@@ -12,10 +12,10 @@
 	<link href="./css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/style.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/socket.io.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
 
 </head>
 
@@ -24,7 +24,7 @@
 		<nav class="navbar navbar-inverse nav-set">
 			<div class="container-fluid">
 				<div class="navbar-header">
-						<a href="index.html" class="nav-moblogo transnav home">
+						<a href="http:\\localhost\TargetUI\index.php" class="nav-moblogo transnav home">
 						<picture>
 							<source media="(max-width: 768px)" srcset="./images/logomob.png">
 								<img src="./images/TransAd.png">
@@ -37,24 +37,17 @@
 			</div>
 		</nav>
 
-	<div class="container app-container">
+	<div class="container app-container animated fadeInUp" >
 		<div class="mapcontainer">
-			<div class="animated fadeInUp">
-
-			</div>
+			<iframe src="map.html" frameborder="none" scrolling="none" height="100%" width="100%"></iframe>
 		</div>
 
 		<div class="statusbox">
-			<div class="animated fadeInUp delay-1s">
-
-			</div>
+				<iframe src="" frameborder="none" scrolling="none" height="100%" width="100%"></iframe>
 		</div>		
 	</div>
 
 </body>
-
-
-
 
 <script type="text/javascript">
 	function update() {
@@ -64,4 +57,5 @@
  	}
 	update();
 </script>
+<script type="text/javascript" src="go.js"></script>
 </html>

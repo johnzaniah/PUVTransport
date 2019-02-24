@@ -19,8 +19,13 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 <?php  
 	session_start();
+<<<<<<< HEAD
 	require "profilelist.php";
 	error_reporting(0);
+=======
+	error_reporting(0);
+	require "acquireData.php";
+>>>>>>> 4bf8abbc553afb20e382521888d8a16b266b2625
 ?>	
 	
 	<table class='table text-center' align='center' style='background-color: #edebe9; border-bottom: 5px solid grey;border-right: 5px solid grey;'><tr style='font-weight: bolder;'><td><button type='submit' class='btn btn-primary' style='border-radius: 0px; border: none;font-size: 10px;background-color: #B4710A;'>Delete</button></td><td>Vehicle ID</td><td>Vehicle Type</td><td>Plate No.</td><td>Passenger Count</td><td>Passenger Capacity</td></tr></td>
