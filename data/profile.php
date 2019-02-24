@@ -19,15 +19,9 @@
 
 <?php  
 	session_start();
-	require "data.php";
+	error_reporting(0);
+	require "acquireData.php";
 
-	$profiledata = "SELECT * from vehicle_list";
-	$acquire = $datasql->query($profiledata);
- 	
- 	$vecdep = "SELECT vehicle_name from vehicle_type INNER JOIN vehicle_list ON vehicle_list.vehicle_id = vehicle_type.vehicle_id ORDER BY vehicle_info;";
-	$dep = $datasql->query($vecdep);
-	$rows = $acquire->num_rows; 
-	
 	echo "<table class='table text-center' align='center' style='background-color: #edebe9; border-bottom: 5px solid grey;border-right: 5px solid grey;'><tr style='font-weight: bolder'><td>Vehicle ID</td><td>Vehicle Type</td><td>Plate No.</td><td>Passenger Count</td><td>Passenger Capacity</td></tr>";
 	
 	for ($x = 0; $x< $rows; $x++) {
@@ -47,7 +41,7 @@
 	 	}
 	 }
 	 echo "</table>";
-	
+	mysqli_close($datasql);	
 ?>
 </body>
 </script>

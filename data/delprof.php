@@ -19,14 +19,8 @@
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 <?php  
 	session_start();
-	require "data.php";
 	error_reporting(0);
-	$profiledata = "SELECT * from vehicle_list";
-	$acquire = $datasql->query($profiledata);
- 	
- 	$vecdep = "SELECT vehicle_name from vehicle_type INNER JOIN vehicle_list ON vehicle_list.vehicle_id = vehicle_type.vehicle_id ORDER BY vehicle_info;";
-	$dep = $datasql->query($vecdep);
-	$rows = $acquire->num_rows; 
+	require "acquireData.php";
 ?>	
 	
 	<table class='table text-center' align='center' style='background-color: #edebe9; border-bottom: 5px solid grey;border-right: 5px solid grey;'><tr style='font-weight: bolder;'><td><button type='submit' class='btn btn-primary' style='border-radius: 0px; border: none;font-size: 10px;background-color: #B4710A;'>Delete</button></td><td>Vehicle ID</td><td>Vehicle Type</td><td>Plate No.</td><td>Passenger Count</td><td>Passenger Capacity</td></tr></td>

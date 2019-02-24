@@ -1,0 +1,1 @@
+var socket = io.connect('https://192.168.1.19:5670',{secure:true});

@@ -46,7 +46,6 @@
 		if($_SERVER['REQUEST_METHOD'] == "POST") {
 			require "login_method.php";
 		}
-
 	 ?>
 </body>
 </html>
