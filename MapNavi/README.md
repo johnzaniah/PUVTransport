@@ -1,1 +1,0 @@
-This is for GPS tracking python code
