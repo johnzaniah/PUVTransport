@@ -14,10 +14,8 @@
 	<link href="./css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body class="main-body">
 
@@ -36,7 +34,7 @@
 						<li><a href="dashboard.php" class="dash">Statistics</a></li>
 						<li><a href="manage.php" class="dash">Manage</a></li>
 						<li><a href="javascript::void(0)" class="selected dash">Settings</a></li>
-						<li><a href="logout.php" class="dash">Logout</a></li>
+						<li><a href="logout.php" class="dash" onclick="log();">Logout</a></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -46,10 +44,10 @@
 		<div class="col-md-4">
 			<ul class="sidebar">
 				<li><div class="container-fluid logo-dash"><img src="./images/logo.png" class="img-responsive"></div></li>
-				<li><a href=dashboard.php" class="dash">Statistics</a></li>
+				<li><a href="dashboard.php" class="dash">Statistics</a></li>
 				<li><a href="manage.php" class="dash">Manage</a></li>
 				<li><a href="javascript::void(0)" class="selected dash">Settings</a></li>
-				<li><a href='logout.php' class='dash'>Logout</a></li>
+				<li><a href='logout.php' class='dash' onclick="log();">Logout</a></li>
 						
 			</ul>
 		</div>
@@ -63,6 +61,5 @@
 		
 </body>
 
-<script type="text/javascript">
-</script>
+<script type="text/javascript" src="./js/logout.js"></script>
 </html>

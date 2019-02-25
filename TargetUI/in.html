@@ -6,19 +6,32 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="" name="keywords">
 	<meta content="" name="description">
+	<link rel="icon" href="./images/webicon.png">
 	<link rel="stylesheet" href="./css/animate/animate.css">
 	<link href="./css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
 	<link href="./css/style.css" type="text/css" rel="stylesheet">
+	<style type="text/css">
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
 </head>
 <body class="in-body">
 	<header class="animated fadeIn">
-		<picture>
-			<source media="(min-width:768px)" srcset="./images/cityalt.png" class="img-responsive">
-			<img src="./images/citymob.png" class="width100-img">
-		</picture>
-			<div class="centering in-text">TRANS AD ?????</div>
+		<div class="try">
+			<picture>
+				<source media="(min-width:768px)" srcset="images/CityAlt.png" class="img-responsive">
+				<img src="images/CityMob.png" class="width100-img">
+			</picture>			
+		</div>
 	</header>
+<div class="centering in-text animated fadeIn delay-2s" style="text-shadow: 3px 3px 3px grey"><h1>TRANS AD</h1>
+				<p style="font-size: 20px"> TITENG LUMILIPAD DAW SABI NI LORD DANIEL DELOS SANTOS!!!</p>
+	</div>
+			<a href="#enter"><img src="images/whitedownarrow.png" class="bottom-arrow animated fadeIn infinite delay-2s"></a>
+
+
 <nav class="navbar navbar-default in-set">
 	<div class="container-fluid">
 		<div class="nav navbar-nav navbar-left timenav"> 
@@ -27,12 +40,12 @@
 	</div>
 </nav>
 
-<div class="container-fluid in-bot">
+<div class="container-fluid in-bot" id="enter">
 	<div>
 		<img src="./images/logo.png" class="logoposition img-responsive">
 	</div>
 	<div class="text-center">
-		<a href="TransAdApp.html" class="btn btn-primary cust-btn shadow-lg p-3 mb-5">
+		<a href="http://localhost:5670" class="btn btn-primary cust-btn shadow-lg p-3 mb-5">
 			<div class="text-center">
 				<span class="col-md-1">
 					<i class="fas fa-angle-right fa-2x"></i>
@@ -42,9 +55,8 @@
 				</span>
 			</div>
 		</a>
-		<div>
+		<div style="padding-bottom: 5%">
 			<p class="text-center">For admin purposes.<a href="auth.php">Click Here!</a></p>
-			
 		</div>
 	</div>
 </div>

@@ -2,6 +2,7 @@
 		.in-text{
 			color:white;
 			font-weight: bold;
+			font-size: 8vw;
 			text-align: center;
 		}
 		.in-body {
@@ -74,17 +75,6 @@
 			}
 		}
 
-		div.try {
-			animation-name: trial;
-			animation-delay: 2s;
-			animation-duration: 1s;
-			animation-iteration-count: 1;
-			animation-timing-function: ease-in;
-			animation-fill-mode: forwards;
-		}
-		@keyframes trial {
-			from  {filter: none;} to {filter: grayscale();}
-		}
 
 
 
@@ -97,43 +87,30 @@
 			height: 50px;
 			position: -webkit-sticky; top:0;
 			position: sticky;top: 0;
-			margin: 0px;
+
 		}
-		.nav-set2 {
-			background-color: #191606;
-			border: none;
-			height: 50px;
-			position: fixed;
-			z-index: 1;
-			width: 100%;
-			margin: 0px;
-		}
+
 		@media only screen and (max-width: 767px) {
-			.auth-pos {
-				padding-top: 20%;
-			}
 			.dashside {
 				display: none;	
 			}
-
 			.dashheading {
-				box-shadow: 5px 3px 5px grey;
+				border-bottom: solid 2px rgba(25,22,6, 70%);
 				color: #191606; 
 				font-size: 20px;
 				font-weight: bolder;
 				display: block;
-				padding-top: 70px;
-				background-color: white;
-				height: 100px;
+				padding-top: 0;
 			}
-
 			.content-margin {
 				margin-left: 2%
 			}
 
 			.frameprop {
+
 				width: 90%; 
-				height: 80vh;				
+				height: 110vw;
+							
 			}
 
 			.statusbox {
@@ -153,28 +130,20 @@
 				box-shadow: 5px 5px 10px grey; 
 				border-radius: 10px;"			
 			}
-
-			.view {
-				width: 95%
-			}
 		}
 
 
 		@media only screen and (min-width: 768px) {
-			.auth-pos {
-				padding-top: 10%;
-			}
 			.dashnav {
 				display: none;
 			}
 			.dashheading {
-				box-shadow: 5px 3px 5px grey;
+				border-bottom: solid 2px rgba(25,22,6, 70%);
 				color: #191606; 
 				font-size: 20px;
 				font-weight: bolder;
 				display: block;
-				padding-top: 20px;
-				background-color: white;
+				padding-top: 10px;
 			}
 
 			.content-margin {
@@ -203,10 +172,6 @@
 				margin: 1vw; 
 				box-shadow: 5px 5px 10px grey; 
 				border-radius: 10px;"			
-			}
-
-			.view {
-				width: 27%
 			}			
 		}
 
@@ -262,24 +227,15 @@
 
 /*main css styling*/
 		.main-body {
-			background-color: #c9c9c9;
+			background-color: white;
 			color: #191606;
 		}
 		.centering{
 			position: absolute;
-			top: 40%;
+			top: 50%;
 			left: 50%;
 			-webkit-transform: translate(-50%,-50%);
 			transform: translate(-50%,-50%);
-		}
-
-		.bottom-arrow{
-			position: absolute;
-			top: 75%;
-			left: 50%;
-			-webkit-transform: translate(-50%,-50%);
-			transform: translate(-50%,-50%);
-			height: 12%;
 		}
 
 		.inline-center {
@@ -288,6 +244,8 @@
 			-webkit-transform: translate(-50%);
 			transform: translate(-50%);
 		}
+
+
 
 		.cust-padd {
 			padding: 10px 10px;
@@ -340,6 +298,18 @@
 			color: #B4710A;
 
 
+		}
+
+		.dashcontent {
+			margin-left: 20%;
+			position: fixed;
+			padding-top: 150px;
+			padding-left: 50px;
+			padding-right: 50px;
+			padding-bottom: 50%;
+			font-size: 15px;
+			color: #191606;
+			overflow: auto;
 		}
 
 		.transnav {
